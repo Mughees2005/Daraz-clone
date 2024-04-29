@@ -296,8 +296,37 @@ body{
     padding: 4px 6px;
 }
 .hover4{
+    height: 188px;
+    width: 188px;
     border: 1px solid transparent;
 }
 .hover4:hover {
-    border: 1px solid gray;
+    height: 200px;
+    width: 188px;
+    border: 1px solid rgba(201, 197, 197, 0.781);
+}
+/* FOOTER */
+.foot_panel1{
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 20px;
+}
+.footer_items{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.footer_items p{
+    color: darkorange;
+    font-size: 20px;
+}
+.footer_items a{
+    text-decoration: none;
+    font-size: 14px;
+    color: #000000;
+}
+.footer_items a:hover{
+    color: #f85606;
 }
