@@ -8,6 +8,10 @@
 body{
     background-color: whitesmoke;
 }
+header{
+    position: sticky;
+    top: 0;
+}
 .list{
     background-color: #f85606;
     height: 25px;
@@ -25,7 +29,9 @@ body{
     font-size: 12px;
     text-decoration: none;
 }
-
+.list_link a:hover{
+    color: rgb(230, 228, 228);
+}
 /* NAVBAR */
 .navbar{
     height: 66px;
